@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:layout_width="388dp"
+        android:layout_height="156dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameview"
+            android:layout_width="55dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="307dp"
+            android:layout_marginBottom="97dp"
+            android:gravity="center"
+            android:text="@string/name1" />
+
+        <TextView
+            android:id="@+id/Idview"
+            android:layout_width="55dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="87dp"
+            android:layout_marginBottom="93dp"
+            android:gravity=""
+            android:text="@string/id1" />
+
+        <TextView
+            android:id="@+id/courseView"
+            android:layout_width="66dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="291dp"
+            android:layout_marginBottom="37dp"
+            android:gravity=""
+            android:text="@string/course1" />
+
+        <TextView
+            android:id="@+id/TimeView3"
+            android:layout_width="66dp"
+            android:layout_height="32dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="33dp"
+            android:gravity=""
+            android:text="@string/time1" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

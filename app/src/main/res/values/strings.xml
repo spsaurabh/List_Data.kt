@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ListData</string>
+    <string name="name">Name:</string>
+    <string name="id">ID:</string>
+    <string name="course">Course:</string>
+    <string name="time">Time:</string>
+
+    <string name="name1">Name:</string>
+    <string name="id1">ID:</string>
+    <string name="course1">Course:</string>
+    <string name="time1">Time:</string>
+
+
+    <string name="name2">Name:</string>
+    <string name="id2">ID:</string>
+    <string name="course2">Course:</string>
+    <string name="time2">Time:</string>
+
+</resources>
